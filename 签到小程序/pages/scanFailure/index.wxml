@@ -1,0 +1,7 @@
+<!--pages/scanSuccess/index.wxml-->
+<view class="box">
+  <view class="imgbox">
+    <image src="/images/fail.png" class='in-image'></image>
+  </view>
+  <view class="resultText">签到失败</view>
+</view>

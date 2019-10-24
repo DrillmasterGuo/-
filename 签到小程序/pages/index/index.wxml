@@ -1,0 +1,13 @@
+<!--index.wxml-->
+
+<view class="box">
+  <view class="schoolMotto">规格严格，功夫到家</view>
+  <view class="imgbox">
+    <image src="/images/HITLOGO.jpg" class='in-image'></image>
+  </view>
+
+  <view class="btnLayout">
+    <button bindtap="scanCode">点击签到</button>
+  </view>
+
+</view>

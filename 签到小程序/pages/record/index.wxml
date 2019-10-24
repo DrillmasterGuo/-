@@ -1,0 +1,17 @@
+ <view class='history-table-wrap'>
+    <view class="table">
+      <view class="tr">
+          <view class="th th1">学号</view>
+          <view class="th th2">姓名</view>
+          <view class="th th3">时间</view>
+          <view class="th th4">状态</view>
+      </view>
+      <view class="tr" wx:for="{{newsList}}">
+          <view class="td td1">{{item.id}}</view>
+          <view class="td td2">{{item.name}}</view>
+          <view class="td td3">{{item.time}}</view>
+          <view class="td td4">{{item.state}}</view>
+      </view>
+    </view>
+ </view>
+<button type='primary' bindtap='download' style='position:fixed;width:100%;bottom:0'>刷新</button>

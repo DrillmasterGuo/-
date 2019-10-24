@@ -1,0 +1,21 @@
+<!--pages/scanSuccess/index.wxml-->
+<view class="box">
+  <view class="imgbox">
+    <image src="/images/HITLOGO.jpg" class='in-image'></image>
+  </view>
+  <view class="resultText">请输入数据</view>
+
+  <view class="btnLayout">
+    <button bindtap="modalinput">上传签到结果</button>
+  </view>
+
+</view>
+
+<modal hidden="{{hiddenmodalput}}" title="请输入学号" confirm-text="提交" cancel-text="取消" bindcancel="cancel" bindconfirm="getname">
+    <input name='ID' type='text' placeholder="例：SZ160210205（注意大写）" maxlength="11" bindinput="xuehao" value="" auto-focus/>
+</modal>
+
+
+<modal hidden="{{hiddenmodalput1}}" title="请输入姓名" confirm-text="提交" cancel-text="取消" bindcancel="cancel" bindconfirm="uploadResult">
+    <input name='name' type='text' placeholder="例：郭桐硕" maxlength="10" bindinput="inputname" value="" auto-focus/>
+</modal>

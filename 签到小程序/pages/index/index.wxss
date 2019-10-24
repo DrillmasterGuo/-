@@ -1,0 +1,36 @@
+/**index.wxss**/
+.box {
+  border: 1rpx solid #fff;
+  margin-top: 80rpx;
+  padding:0rpx;
+}
+
+.imgbox {
+  margin-top: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgbox image{
+  height: 400rpx;
+  width:400rpx;
+}
+
+.schoolMotto {
+  font-size: 50rpx;
+  text-align: center;
+  margin-bottom: 15rpx
+}
+
+.btnLayout{
+  margin-top: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  background-color: #fff; 
+  color: green;
+  border: 1rpx solid green;
+  }

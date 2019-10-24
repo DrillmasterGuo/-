@@ -1,0 +1,41 @@
+/* pages/scanFailure/index.wxss */
+.box {
+  border: 1px solid silver;
+  justify-content: center;
+  margin: 20rpx;
+  padding:20rpx;
+  align-content: center;
+}
+
+
+.resultText {
+  margin-top: 100rpx;
+  font-style: bold;
+  font-size: 50rpx;
+  text-align: center;
+  margin-bottom: 15rpx
+}
+
+.imgbox {
+  margin-top: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgbox image{
+  height: 100rpx;
+  width:100rpx;
+}
+
+.btnLayout{
+  margin-top: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  background-color: #fff; 
+  color: green;
+  border: 1rpx solid green;
+  }

@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/record/index",
+    "pages/my/index",
+    "pages/logs/logs",
+    "pages/scanSuccess/index",
+    "pages/scanFailure/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eeeeee",
+    "navigationBarTitleText": "二维码签到",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#08af3a",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "签到",
+        "iconPath":"/images/home.png",
+        "selectedIconPath":"/images/home(1).png"
+      },
+      {
+        "pagePath": "pages/record/index",
+        "text": "记录",
+        "iconPath": "/images/list.png",
+        "selectedIconPath": "/images/list(1).png"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath": "/images/my.png",
+        "selectedIconPath": "/images/my(1).png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
